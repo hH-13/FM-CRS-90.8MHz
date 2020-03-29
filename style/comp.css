@@ -2002,7 +2002,7 @@ height: 60vmin;
 }
 
 .footer-distributed .footer-center p a {
-  color:  lightseagreen;
+  color: white;
   text-decoration: none;;
 }
 
@@ -2053,13 +2053,19 @@ height: 60vmin;
 }
 
 @media only screen and (max-width: 750px) {
+  .site .nav {
+    min-height: 1.5rem;
+  }
   .site .nav a {
     display: none;
     transition: 1s all ease;
+    padding: 0;
+    margin: 20px 0px;
   }
   .site .nav a.icon {
     display: block;
     margin-left: calc(50% - 19.5px);
+    width: 39px;
   }
   .site .nav.responsive {
     position: relative;
