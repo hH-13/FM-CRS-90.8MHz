@@ -6,6 +6,7 @@ var contentH = (document.getElementById("mysite").offsetTop - 150);
 function navy() {
   if (window.pageYOffset > contentH) {
     navbar.classList.add("opaq");
+    document.getElementById("footer").style.display = "flex";
   } else {
     navbar.classList.remove("opaq");
   }
